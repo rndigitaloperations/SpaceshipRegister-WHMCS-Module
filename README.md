@@ -36,7 +36,7 @@ A WHMCS registrar module that integrates **Spaceship** as a domain registrar, al
    /modules/registrars/spaceship
    ```
 
-⚠️ **Important:**
+**Important:**
 The `spaceship` directory does **not** exist by default and must be created manually.
 
 ## Module Activation
@@ -65,7 +65,7 @@ You will need the following credentials from Spaceship:
 
 These can be generated via the Spaceship API Manager:
 
-👉 [https://www.spaceship.com/application/api-manager/](https://www.spaceship.com/application/api-manager/)
+[https://www.spaceship.com/application/api-manager/](https://www.spaceship.com/application/api-manager/)
 
 Make sure the API access is enabled and active.
 
@@ -93,8 +93,8 @@ After activating the module:
 * Check if domain extensions appear correctly
 * Test a domain order
 
-✅ Normally, domains should appear automatically once pricing is configured.
-❌ If not, WHMCS may not display domains correctly due to misconfiguration.
+Normally, domains should appear automatically once pricing is configured.
+If not, WHMCS may not display domains correctly due to misconfiguration.
 
 ## Troubleshooting
 
